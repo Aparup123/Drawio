@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.6">
+  <diagram name="Page-1" id="5hgOHieE4tB-b0F53_5N">
+    <mxGraphModel dx="947" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UX8xlcRO2hCH5XUWtXwY-5" edge="1" parent="1" source="UX8xlcRO2hCH5XUWtXwY-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UX8xlcRO2hCH5XUWtXwY-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UX8xlcRO2hCH5XUWtXwY-17" connectable="0" parent="UX8xlcRO2hCH5XUWtXwY-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Content" vertex="1">
+          <mxGeometry relative="1" x="-0.2289" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UX8xlcRO2hCH5XUWtXwY-2" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/File.svg;" value="Knowledge&lt;br&gt;Source" vertex="1">
+          <mxGeometry height="90" width="73.04" x="113.48" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="UX8xlcRO2hCH5XUWtXwY-8" edge="1" parent="1" source="UX8xlcRO2hCH5XUWtXwY-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UX8xlcRO2hCH5XUWtXwY-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UX8xlcRO2hCH5XUWtXwY-20" connectable="0" parent="UX8xlcRO2hCH5XUWtXwY-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Small&amp;nbsp;&lt;br&gt;Text&lt;br&gt;Chunks" vertex="1">
+          <mxGeometry relative="1" x="-0.1765" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UX8xlcRO2hCH5XUWtXwY-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Document Parser" vertex="1">
+          <mxGeometry height="90" width="90" x="250" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="UX8xlcRO2hCH5XUWtXwY-13" edge="1" parent="1" source="UX8xlcRO2hCH5XUWtXwY-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UX8xlcRO2hCH5XUWtXwY-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UX8xlcRO2hCH5XUWtXwY-21" connectable="0" parent="UX8xlcRO2hCH5XUWtXwY-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Vector&lt;div&gt;Embeddings&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0882" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UX8xlcRO2hCH5XUWtXwY-7" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Sentence&amp;nbsp;&lt;div&gt;Embedding&amp;nbsp;&lt;/div&gt;&lt;div&gt;Model&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="97" x="425" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="UX8xlcRO2hCH5XUWtXwY-11" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Vector&lt;br&gt;DB" vertex="1">
+          <mxGeometry height="100" width="80" x="610" y="205" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
